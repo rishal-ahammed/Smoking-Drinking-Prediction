@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ML_Deploying</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+  <form method="POST", action="/predict">
+    <div id="div1">
+      <h1>Health Check Form</h1>
+      <form method="POST" , action="/predict">
+        <label for="name">NAME</label>
+        <input type="text" id="name" name="name" value="Rishal">
+        <div class="flex-container">
+          <div>
+            <label for="age">AGE</label>
+            <input type="text" id="age" name="age">
+          </div>
+
+          <label for="gender">GENDER:</label>
+          <select name="gender" id="gender-select">
+            <option value="0">Male</option>
+            <option value="1">Female</option>
+          </select>
+
+
+        </div>
+        <div class="flex-container2">
+          <div>
+            <label for="height">HEIGHT</label>
+            <input type="text" id="height" name="height">
+          </div>
+          <div>
+            <label for="weight">WEIGHT</label>
+            <input type="text" id="weight" name="weight">
+          </div>
+          <div>
+            <label for="waistline">WAISTLINE</label>
+            <input type="text" id="waistline" name="waistline">
+          </div>
+        </div>
+        <div class="flex-container3">
+          <div>
+            <label for="sight_left">SIGHT (Left)</label>
+            <input type="text" id="sight_left" name="sight_left">
+          </div>
+          <div>
+            <label for="sight_right">SIGHT (Right)</label>
+            <input type="text" id="sight_right" name="sight_right">
+          </div>
+        </div>
+        <div class="flex-container4">
+          <div>
+            <label for="hear_left">HEARING (Left)</label>
+            <input type="text" id="hear_left" name="hear_left">
+          </div>
+          <div>
+            <label for="hear_right">HEARING (Right)</label>
+            <input type="text" id="hear_right" name="hear_right">
+          </div>
+        </div>
+
+        <div class="flex-container5">
+
+          <div>
+            <label for="sbp">SBP</label>
+            <input type="text" id="sbp" name="sbp">
+          </div>
+
+          <div>
+            <label for="dbp">DBP</label>
+            <input type="text" id="dbp" name="dbp">
+          </div>
+        </div>
+        <label for="blds">BLDS</label>
+        <input type="text" id="blds" name="blds">
+        <div class="flex-container6">
+          <div>
+            <label for="tot_chole">Total Cholesterol</label>
+            <input type="text" id="tot_chole" name="tot_chole">
+          </div>
+          <div>
+            <label for="hdl_chole">HDL Cholesterol</label>
+            <input type="text" id="hdl_chole" name="hdl_chole">
+          </div>
+          <div>
+            <label for="ldl_chole">LDL Cholesterol</label>
+            <input type="text" id="ldl_chole" name="ldl_chole">
+          </div>
+        </div>
+        <div class="flex-container7">
+          <div>
+            <label for="triglyceride">Triglycerides</label>
+            <input type="text" id="triglyceride" name="triglyceride">
+          </div>
+          <div>
+            <label for="hemoglobin">Hemoglobin</label>
+            <input type="text" id="hemoglobin" name="hemoglobin">
+          </div>
+        </div>
+        <div class="flex-container8">
+          <div>
+            <label for="urine_protein">Urine Protein</label>
+            <input type="text" id="urine_protein" name="urine_protein">
+          </div>
+          <div>
+            <label for="serum_creatinine">Serum Creatinine</label>
+            <input type="text" id="serum_creatinine" name="serum_creatinine">
+          </div>
+        </div>
+        <div class="flex-container9">
+          <div>
+            <label for="sgot_ast">SGOT (AST)</label>
+            <input type="text" id="sgot_ast" name="sgot_ast">
+          </div>
+          <div>
+            <label for="sgot_alt">SGOT (ALT)</label>
+            <input type="text" id="sgot_alt" name="sgot_alt">
+          </div>
+        </div>
+        <label for="gamma_gtp">Gamma GTP</label>
+        <input type="text" id="gamma_gtp" name="gamma_gtp">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </form>
+
+</body>
+
+</html>

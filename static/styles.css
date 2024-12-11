@@ -1,0 +1,328 @@
+/* Base styles for body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  padding: 10vh;
+}
+
+/* Container div styles */
+#div1 {
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0); /* Transparent background */
+  border-radius: 16px; /* Rounded corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  backdrop-filter: blur(14.4px); /* Blurring effect */
+  -webkit-backdrop-filter: blur(14.4px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.81); /* Semi-transparent border */
+  padding: 20px; /* Space inside the container */
+  margin-bottom: 20px; /* Space below the container */
+  color: #000; /* Text color for contrast */
+}
+
+/* Form elements styling */
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding/border are within the width */
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.144);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: white; /* Green button */
+  color: #38a37e;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  border: 3px solid #57ba98;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #57ba98; /* Darker green on hover */
+  color: white;
+}
+
+.flex-container {
+  flex: 1;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.flex-container div {
+  width: 100%;
+}
+
+#gender-select {
+  width: 100%;
+  /* Makes it responsive to the container */
+  max-width: 300px;
+  /* Adjust max width as needed */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  /* Rounded corners */
+  border: 1px solid #ccc;
+  /* Light border for better visibility */
+  background-color: #f9f9f92f;
+  /* Light background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+  color: white;
+}
+
+#gender-select:focus {
+  outline: none;
+  border-color: #57ba98;
+  /* Highlighted border color on focus */
+  box-shadow: 0 0 8px rgba(87, 186, 152, 0.5);
+  /* Glow effect */
+  background-color: #38a37e;
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* Space between columns */
+  margin-bottom: 20px; /* Space below the row */
+}
+
+.flex-container2 div {
+  flex: 1; /* Equal width for all fields */
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  gap: 10px; /* Space between label and input */
+  padding: 5px; /* Padding around each input field group */
+}
+
+.flex-container3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* Space between columns */
+  margin-bottom: 20px; /* Space below the row */
+}
+
+.flex-container3 div {
+  flex: 1; /* Equal width for all fields */
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  gap: 10px; /* Space between label and input */
+  padding: 5px; /* Padding around each input field group */
+}
+
+.flex-container4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* Space between columns */
+  margin-bottom: 20px; /* Space below the row */
+}
+
+.flex-container4 div {
+  flex: 1; /* Equal width for all fields */
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  gap: 10px; /* Space between label and input */
+  padding: 5px; /* Padding around each input field group */
+}
+
+.flex-container5 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* Space between columns */
+  margin-bottom: 20px; /* Space below the row */
+}
+
+.flex-container5 div {
+  flex: 1; /* Equal width for all fields */
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  gap: 10px; /* Space between label and input */
+  padding: 5px; /* Padding around each input field group */
+}
+
+.flex-container6 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* Space between columns */
+  margin-bottom: 20px; /* Space below the row */
+}
+
+.flex-container6 div {
+  flex: 1; /* Equal width for all fields */
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  gap: 10px; /* Space between label and input */
+  padding: 5px; /* Padding around each input field group */
+}
+
+.flex-container7 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* Space between columns */
+  margin-bottom: 20px; /* Space below the row */
+}
+
+.flex-container7 div {
+  flex: 1; /* Equal width for all fields */
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  gap: 10px; /* Space between label and input */
+  padding: 5px; /* Padding around each input field group */
+}
+
+.flex-container8 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* Space between columns */
+  margin-bottom: 20px; /* Space below the row */
+}
+
+.flex-container8 div {
+  flex: 1; /* Equal width for all fields */
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  gap: 10px; /* Space between label and input */
+  padding: 5px; /* Padding around each input field group */
+}
+
+.flex-container9 {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* Space between columns */
+  margin-bottom: 20px; /* Space below the row */
+}
+
+.flex-container9 div {
+  flex: 1; /* Equal width for all fields */
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  gap: 10px; /* Space between label and input */
+  padding: 5px; /* Padding around each input field group */
+}
+
+.flex-container .gender {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between gender options */
+}
+
+.flex-container .genderhd {
+  padding-left: 20px;
+}
+
+input[type="checkbox"] {
+  margin-left: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .gender {
+    margin-top: 10px;
+  }
+  #div1 {
+    padding: 15px 20px;
+  }
+
+  input[type="text"],
+  input[type="submit"] {
+    font-size: 14px;
+  }
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+/****** Styling for the after.html page *******/
+
+/* Styling for the main container */
+#result-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Ensures precise centering */
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0); /* Transparent background */
+  border-radius: 16px; /* Rounded corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  backdrop-filter: blur(14.4px); /* Blurring effect */
+  -webkit-backdrop-filter: blur(14.4px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.81); /* Semi-transparent border */
+  padding: 20px; /* Space inside the container */
+  margin-bottom: 20px; /* Space below the container */
+  color: #000; /* Text color for contrast */
+  
+}
+
+#main-title {
+  font-size: 2.5em;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Styling for the paragraph (p) */
+#result-description {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+/* Styling for the back button (a) */
+#back-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for the back button */
+#back-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05); /* Slight zoom on hover */
+}
